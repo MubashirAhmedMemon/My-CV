@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color: rgb(0, 204, 255);
+    color: black;
+}
+
+body {
+    background-color: #f5f6fa !important;
+    overflow-x: hidden;
+}
+
+div {
+    display: block;
+}
+h1 {
+    color: black;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 3.5rem !important;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif !important;
+    color: black;
+    font-size: 2.5rem !important;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 2rem !important;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.75rem !important;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.25rem !important;
+    text-align: center;
+}
+
+p,
+a,
+html,
+body {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif !important;
+    color: black;
+    text-decoration: none;
+}
+
+.lightweight {
+    font-weight: 100 !important;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+}
+
+.mybanner {
+    height: 80vh;
+    background-image: url(assist/5172658.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* Set the position to relative */
+}
+
+
+
+.navbar-nav {
+    margin-left: 30%;
+}
+
+.collapse ul li {
+    margin: 0 20px;
+}
+
+.myabout {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1.5rem;
+}
+
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 0.3rem !important;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: rgb(118, 187, 255) !important;
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #00158a !important;
+}
+
+.mymargin {
+    margin: 100px auto;
+}
+
+label {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mydiv {
+    min-height: 200px;
+    background-color: rgb(0, 204, 255);
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem 0rem 0rem 0.5rem !important;
+}
+
+.theheading {
+    text-align: center !important;
+}
+
+.first {
+    margin-left: 520px;
+}
+@media only screen and (max-width: 786px) {
+    .first {
+        margin-left: 200px;
+    }
+    .sec {
+        margin-left: 210px !important;
+    }
+    .thrid {
+        margin-left: 160px !important;
+    }
+    .fourth {
+        margin-left: 160px !important;
+    }
+    .fifth {
+        margin-left: 165px !important;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .sixth{
+        margin-left: 180px !important;
+    }
+    .nothing{
+        font-size: 13px;
+    }
+}
+.sec {
+    margin-left: 530px;
+}
+.thrid{
+    margin-left: 480px;
+}
+.fourth{
+    margin-left: 465px;
+}
+.fifth{
+    margin-left: 470px;
+}
+.sixth{
+    margin-left: 490px;
+    display: inline !important;
+}
+.thediv {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.institute {
+    color: gray !important;
+    text-align: start !important;
+}
+
+.course {
+    text-align: center !important;
+    display: block;
+}
+
+.mydiv1 {
+    min-height: 200px;
+    background-color: rgb(0, 204, 255);
+    padding: 4.8rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem 0rem 0rem 0.5rem !important;
+}
+
+.ok {
+    align-items: center;
+    vertical-align: center;
+}
+
+/* Copy */
+
+
+.footer-20192 .cta {
+    padding: 20px;
+    border: 3px solid #00158a;
+    border-radius: 10px;
+    background-color: rgb(0, 204, 255);
+    top: -80px;
+    position: relative;
+}
+
+.black {
+    color: black;
+}
+
+.last {
+    background-image: url(assist/blue-brushstrokes-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 3px 0px 0px 0px;
+}
+
+/* last */
+a:hover,
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 786px) {
+    .desktop {
+        display: none;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 786px) {
+    .mobile {
+        display: block;
+    }
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 204, 255);
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(0, 174, 218);
+  }
