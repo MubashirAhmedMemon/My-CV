@@ -289,3 +289,18 @@ a {
   #myBtn:hover {
     background-color: rgb(0, 174, 218);
   }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:none !important;
+}
+.navbar-toggler {
+    padding:0 !important;
+    font-size:inherit;
+    line-height: 1;
+    color:black !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0;
+    transition: var(--bs-navbar-toggler-transition);
+}
