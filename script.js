@@ -16,7 +16,7 @@ function fillProgressBars() {
     progressBar2.style.width = "90%";
     progressBar3.style.width = "65%";
     progressBar4.style.width = "80%";
-    progressBar5.style.width = "30%";
+    progressBar5.style.width = "45%";
     progressBar6.style.width = "50%";
 }
 // 
